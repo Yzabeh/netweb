@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial scale=1.0">
+        <title> Learn Basic Chess </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Sulphur+Point&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<section class="header">
+<nav>
+    <a href="index.html"><img src="logo.png"> Basic Chess</a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a class="nav-links" href="index (2).html">Home</a></li>
+            <li><a class="nav-links" href="cpc.html">Chess Pieces</a></li>
+            <li><a class="nav-links" href="chess.html"> Chess</a></li>
+            <li><a class="nav-links" href="about.html">About us</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<div class="text-box">
+    <h1>WELCOME!</h1>
+    <p> Let's learn about the basics of chess. <br /> 
+        A journey into the vast world of strategic thinking that enhances your mental agility and problem solving skills.<br /> 
+        Start with the basics and unlock a treasure trove of intellectual enrichment.</p>
+
+</div>
+
+</section>
+
+<!---- Course -->
+<section class="course">
+    <hr style=" margin-bottom: 15px;">
+    <h1 style="color: black;">Introduction</h1>
+    <hr style=" margin-top: 0px;">
+    <div class="row">
+        <div class="course-col">
+            <h2 style="color: black; "> Chess History</h2>
+            <p>People have been playing chess for more than 1500 years. Invented in India in the 6th century CE, its earliest known form was called chaturanga. The pieces originally represented the military units common in warfare at that time: infantry, cavalry, elephants, chariots, a general, and a king.</p>
+        </div>
+        <div class="course-col">
+            <h2 style="color: black;">All about Chess</h2>
+            <p>Chess is a board game for two players, called White and Black, each controlling an army of chess pieces, with the objective to checkmate the opponent's king. It is sometimes called international chess or Western chess to distinguish it from related games such as xiangqi (Chinese chess) and shogi (Japanese chess).</p>
+        </div>
+        <div class="course-col">
+            <h2 style="color: black;">Benefits of Chess</h2>
+            <p>Chess thinking often involves a complex, hierarchical structure of problems and sub-problems, and the capacity for retaining and manipulating such complex structures of data concurrently never deviating from the goals, all correlate with having a high IQ. Chess has been shown to raise student's overall IQ scores. </p>
+</section>
+
+<!-- Contact us 
+
+<section class="ctu">
+    <div class="con">
+    <h1>Encountered any problem? You may contact us.</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+    </div>
+</section>
+-->
+<!-- Footer -->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>We are programmers that want to implement chess basic knowledge.</p>
+</section>
+
+<!-------- JavaScript for Toggle Menu -------->
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right="0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+
+</script>
+
+    </body>
+</html>     
